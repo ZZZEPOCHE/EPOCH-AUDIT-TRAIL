@@ -56,7 +56,13 @@ Defensive safety research, artistic, technical, educational, and personal use on
 
 It stores prompts, model outputs, and image hashes only (never the actual images), with automatic PII redaction, intelligent risk assessment, and full chain-of-custody verification.
 
-### Key Capabilities
+---
+# 🛡️ Project Evaluation: EPOCH-AUDIT-TRAIL Minimal v1.0
+**Current Version:** Forensic Vault (Single-File Static Release)  
+**Overall Performance Rating:** **8.6 / 10**
+
+---
+### 1. Key Capabilities
 - Tamper-evident logging with hash chaining and HMAC signatures
 - Full forensic chain verification that detects tampering or deletions
 - Automatic PII redaction (emails and phone numbers)
@@ -65,7 +71,62 @@ It stores prompts, model outputs, and image hashes only (never the actual images
 - Clear step-by-step terminal feedback
 - Database statistics on startup
 - Exports include full verification report
+  
+### 2. Code & Architecture Assessment
+This score reflects the technical health and structural integrity of the codebase.
 
+| Criterion | Score | Key Notes |
+| :--- | :---: | :--- |
+| **Simplicity & Minimalism** | 9.0 | Single-file architecture with a clean, logical structure. |
+| **Forensic Integrity** | 9.0 | Detailed verification via full chain walking. |
+| **Privacy** | 9.0 | Robust PII redaction; stores image hashes rather than raw data. |
+| **Usability** | 9.0 | Intuitive terminal output with clear step-by-step guidance. |
+| **Security** | 8.5 | Solid implementation of encryption, signatures, and backups. |
+| **Reliability** | 8.5 | Includes automated migration paths and backup routines. |
+| **Risk Assessment** | 8.0 | Improved logic tailored for various log types. |
+
+**Architecture Average:** **8.7 / 10**
+
+---
+
+### 3. Competitive Feature Landscape
+How **EPOCH-AUDIT-TRAIL** compares to industry-standard logging and SIEM solutions.
+
+| Feature | EPOCH-AUDIT-TRAIL | Commercial SIEM | Simple Text Log |
+| :--- | :---: | :---: | :---: |
+| **Full Chain Verification** | ✅ Yes | ⚠️ Partial | ❌ No |
+| **Timestamped Backups** | ✅ Yes | ⚠️ Usually No | ❌ No |
+| **Export Tamper Detection** | ✅ Yes | ⚙️ Configurable | ❌ No |
+| **Image Hash Tracking** | ✅ Yes | ❌ N/A | ❌ No |
+| **Offline / Single File** | ✅ Yes | ❌ No | ✅ Yes |
+| **Static Release** | ✅ Yes | ❌ No | ✅ Yes |
+
+---
+
+### 4. Stakeholder & Team Utility
+The tool's effectiveness across different operational "color teams."
+
+* **⚪ White Team (Oversight): 9.5** – Exceptional for provable chain-of-custody.
+* **🔵 Blue Team (Defensive): 9.0** – Strong incident response and audit capabilities.
+* **🟠 Orange Team (Resilience): 9.0** – High marks for forensic readiness.
+* **🟡 Yellow Team (Ethics/AI): 8.5** – Effective tracking of harmful or biased outputs.
+* **🟣 Purple Team (Hybrid): 8.5** – Validates defenses during attack simulations.
+* **🔴 Red Team (Offensive): 7.5** – Reliable for tracking prompt injection/jailbreaks.
+* **🔘 Gray Team (Ambiguous): 7.5** – Promotes logging discipline in "gray" areas.
+* **🟢 Green Team (Sustainability): 7.0** – Efficient, lightweight single-file design.
+
+---
+
+### 5 🚀 Production Ramp Schedule
+
+| Phase | Status | Description | Target |
+| :--- | :--- | :--- | :--- |
+| **Phase 0** | **Stable** | **Current Version:** Minimal single-file forensic vault. | **Immediate** |
+| **Phase 1** | Inactive | Lab / Personal: Enhanced reporting modules. | N/A |
+| **Phase 2** | Inactive | Team Scale: Multi-vault support. | N/A |
+| **Phase 3** | Inactive | Enterprise: Advanced third-party integration. | N/A |
+
+> **Summary Note:** The project currently excels as a high-integrity, portable forensic tool. While the "Team" and "Enterprise" phases are not currently planned, the existing Phase 0 architecture provides a complete, production-ready solution for standalone auditing.
 ---
 
 ## HOW TO USE THIS CODE
@@ -89,107 +150,17 @@ Smart Risk Assessment: Correctly handles image-only logs as LOW RISK
 Automatic Migration: Works with older database versions
 Clear Operator Feedback: Step-by-step terminal messages for every action
 Export with Proof: JSON export includes chain verification report
+This tool remains intentionally at Phase 0.
 
-EVALUATION MATRICES
-1. Code & Architecture Evaluation (out of 10)Criterion
-Score
-Notes
-Simplicity & Minimalism
-9
-Single file, clean structure
-Forensic Integrity
-9
-Full chain walking + detailed verification
-Security
-8.5
-Encryption + signatures + backups
-Privacy
-9
-Strong PII redaction + image hash only
-Usability
-9
-Clear step-by-step terminal output
-Risk Assessment
-8
-Improved logic for different log types
-Reliability
-8.5
-Auto migration and backups
+🛠️ Troubleshooting Guide
 
-Architecture Average: 8.7 / 10
-2. Comparison vs Similar ToolsFeature
-EPOCH-AUDIT-TRAIL
-Commercial SIEM
-Simple Text Log
-Full chain verification
-Yes
-Partial
-No
-Timestamped backups
-Yes
-Usually No
-No
-Tamper detection on export
-Yes
-Configurable
-No
-Image hash only
-Yes
-N/A
-No
-Offline / single file
-Yes
-No
-Yes
-Static release
-Yes
-No
-Yes
-
-3. Usefulness for Users & Teams (out of 10)
-Red Team (offensive): 7.5 — Tracks jailbreaks and prompt injections  
-Blue Team (defensive): 9 — Strong audit trail and incident response  
-Purple Team (hybrid): 8.5 — Attack simulation + defense validation  
-Yellow Team (AI alignment & ethics): 8.5 — Tracks harmful outputs  
-Orange Team (operational resilience): 9 — Forensic readiness  
-Green Team (sustainability): 7 — Lightweight single-file design  
-Gray Team (ambiguous operations): 7.5 — Useful for logging discipline  
-White Team (oversight & auditing): 9.5 — Provable chain-of-custody
-
-Grand Total Score: 8.6 / 10PRODUCTION RAMP SCHEDULE
-Phase
-Status
-Description
-Target Readiness
-0
-Current Stable
-Minimal single-file forensic vault (this version)
-Immediate
-1
-Lab / Personal
-Enhanced reporting
-Not planned
-2
-Team Scale
-Multi-vault support
-Not planned
-3
-Enterprise
-Advanced integration
-Not planned
-
-This tool remains intentionally at Phase 0.TROUBLESHOOTINGIssue
-Solution
-cryptography not found
-pip install cryptography
-Key issues
-Use EPOCH_VAULT_KEY env var or delete key file
-Old database errors
-Tool automatically migrates columns
-Image logged with wrong risk
-Fixed — image-only logs now correctly show LOW RISK
-Chain verification warning
-Check key consistency and review details
+If you encounter issues while running the EPOCH-AUDIT-TRAIL, refer to the table below for quick resolutions to common technical hurdles.
+Issue	Recommended Action
+cryptography module not found	Run pip install cryptography to install the required dependency.
+Key Access / Permissions	Set the EPOCH_VAULT_KEY environment variable or delete the existing key file to regenerate.
+Legacy Database Errors	No manual action needed—the tool is designed to automatically migrate columns.
+Incorrect Image Risk Level	Resolved in latest update: Image-only logs are now correctly categorized as LOW RISK.
+Chain Verification Warning	Ensure your key is consistent across sessions and review the detailed log output for specific gaps.
 
 LIMITATIONS
 Risk assessment is rule-based (not full ML classifier)
