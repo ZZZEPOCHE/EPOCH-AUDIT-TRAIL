@@ -3,6 +3,34 @@
 **Minimal Tamper-Evident Forensic Vault for LLM Interactions**  
 **Tamper-Evident • Epistemic-Aware • Lab-Ready • Outer-Layer Governance**
 
+Important Notice & Disclaimer
+
+This tool is intended strictly for research and personal use only.
+
+It is NOT a substitute for professional engineering, commercial, marketing, publicity, financial, medical, psychological, educational, forensic, legal or any other type of advice. Users must exercise their own judgment and seek appropriate professional guidance when necessary.
+
+No Warranty
+The tool is provided on an "AS IS" and "AS AVAILABLE" basis. The author makes no representations or warranties of any kind, express or implied, regarding the accuracy, reliability, completeness, or suitability of the tool or its outputs.
+
+The author expressly disclaims all liability for any direct, indirect, incidental, consequential, special, or other damages arising from the use or inability to use this tool, including but not limited to any harm, loss, or injury.
+
+EU/EEA Compliance This tool has not been assessed for compliance with the EU AI Act, GDPR, or any other applicable European regulations. Users in the European Union or European Economic Area assume all risks and responsibilities regarding regulatory compliance, data protection, and legal obligations. Use in these jurisdictions is entirely at the user's own risk.
+
+By using this tool, you acknowledge that you have read, understood, and accepted this disclaimer in full.
+Legal Disclosure
+
+This is an independent open-source project.
+No affiliation or compensation exists with any AI laboratory or commercial entity.
+
+This tool is released under the MIT License for research and personal use only.
+
+Static Release: This is a final frozen version. No further updates are planned.
+
+USA: Users are solely responsible for compliance with all applicable U.S. federal, state, and local laws.
+Rest of the World: Users bear full responsibility for compliance with all local laws and regulations.
+
+
+
 **Code Name:** Epoch-Audit-Trail-M  
 **Version:** 1.0 (Static Release)  
 **EU/EEA Use:** -NOT FOR USE IN THE EU/EEA-
@@ -11,44 +39,6 @@
 **Assisted by:** Grok by xAI  
 **Date:** 2026-04-17  
 **Keywords:** audit-trail, forensic-logging, tamper-evident, llm-governance, encryption, fernet, sqlite, pii-redaction, risk-assessment, defensive-tool, epistemic-check, hallucination-tracking, outer-layer, static-release, mit-license, research-tool, defensive-safety, vault, chain-of-custody, non-eu
-
----
-
-## LEGAL DISCLOSURE (MANDATORY READ)
-
-This is an **independent open-source defensive safety tool**.  
-**Author:** ZZZ_EPOCHE  
-**No affiliation** with xAI, Anthropic, Google, OpenAI, Mistral or any LLM provider.
-
-This tool is released under the **MIT License** for defensive and research purposes only.  
-It is designed to provide persistent auditability, epistemic checking, and hallucination tracking for outer-layer LLM governance.
-
-**WARNING:** This version is **explicitly not intended for use in the European Union or EEA**.  
-It is **not designed** to meet EU AI Act or GDPR requirements. Any use in the EU/EEA is entirely at the user's own risk and responsibility.
-
-**Legal & Compliance**  
-© ZZZ_EPOCHE 2026  
-**License:** MIT License (USA)  
-
-Users are solely responsible for compliance with all applicable U.S. federal, state, and local laws.  
-The author disclaims all liability.
-
-**European Union / EEA**  
-If used in the EU/EEA, the user must conduct their own full legal assessment and accept all liability.  
-The tool is provided without any warranty of conformity with the EU AI Act or GDPR.
-
-**Rest of the World**  
-Users bear full responsibility for compliance with all local laws and regulations.
-
-**Static Release Policy**  
-This is a **final, frozen version** (2026-04-17). No maintenance, updates, or security patches will be provided.
-
-**Intended Use**  
-Defensive safety research, artistic, technical, educational, and personal use only.
-
-**Inspired by** the EPOCH-FRAMEWORK and OUTER-LAYERS-LLMS philosophy.
-
----
 
 ## WHAT THIS CODE DOES
 
@@ -167,11 +157,10 @@ Risk assessment is rule-based (not full ML classifier)
 Static release — no future updates or patches
 Fernet key must be protected (loss = permanent data loss)
 Designed for personal/lab use, not high-volume production
-Explicitly non-compliant with EU AI Act / GDPR by design
 
 Copyright © 2026 ZZZ_EPOCHE
 License: MIT License  Final Note from Author
-In an era of increasingly capable outer-layer models, persistent epistemic discipline and forensic accountability remain human responsibilities. EPOCH-AUDIT-TRAIL provides one minimal, defensible instrument toward that end.Use responsibly.
+In an era of increasingly capable outer-layer models, persistent epistemic discipline and forensic accountability remain human responsibilities. EPOCH-AUDIT-TRAIL provides one minimal, defensible instrument toward that end. Use responsibly.
 EPOCH-AUDIT-TRAIL Minimal v1.0
 
 
